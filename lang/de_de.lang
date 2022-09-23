@@ -2,6 +2,7 @@ wortpresse_title = Wortpresse
 wortpresse_category = 📂 Kategorien
 wortpresse_taxonomy = 🏷️ Tags
 wortpresse_menu = 🗂️ Menüs
+wortpresse_comment = 🗨️ Kommentare
 wortpresse_settings = Einstellungen
 wortpresse_docs = Hilfe
 
@@ -25,3 +26,5 @@ wortpresse_category_meta_category = 📂 Kategorien
 wortpresse_category_meta_taxonomy = 🏷️ Tags
 wortpresse_article_meta_category = 📂 Kategorien
 wortpresse_article_meta_taxonomy = 🏷️ Tags
+wortpresse_article_meta_comment = 🗨️ Kommentare erlauben
+wortpresse_article_meta_author = 🦄 Autor(en)

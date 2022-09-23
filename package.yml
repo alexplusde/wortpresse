@@ -27,6 +27,9 @@ pages:
     menu:
         title: translate:wortpresse_menu
         perm: wortpresse[menu]
+    comment:
+        title: translate:wortpresse_comment
+        perm: wortpresse[comment]
     settings:
         title: translate:wortpresse_settings
         icon: rex-icon fa-gear
