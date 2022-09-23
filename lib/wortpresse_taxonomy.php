@@ -1,5 +1,5 @@
 <?php
-class wortpresse_taxonomy extends \rex_yform_manager_dataset
+class wp_taxonomy extends \rex_yform_manager_dataset
 {
     public function getName() :string
     {

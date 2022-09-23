@@ -1,5 +1,5 @@
 <?php
-class wortpresse_category extends \rex_yform_manager_dataset
+class wp_category extends \rex_yform_manager_dataset
 {
     public function getName() :string
     {
