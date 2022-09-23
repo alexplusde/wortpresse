@@ -7,9 +7,11 @@ wortpresse_docs = Hilfe
 
 # Konfigurationsformulare
 wortpresse_config = Einstellungen
-wortpresse_config_mytextfield_label = Test-Feld
-wortpresse_config_mytextfield_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
+wortpresse_editor = Standard-Editor
 
 # YForm Tablelen-Übersetzung
 wortpresse_category_tablename = Kategorien
 wortpresse_taxonomy_tablename = Tags
+
+wortpresse_menu_article_id = Kategorie / Artikel
+wortpresse_menu_parent_id = unterhalb von...
