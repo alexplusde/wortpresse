@@ -15,3 +15,6 @@ wortpresse_taxonomy_tablename = Tags
 
 wortpresse_menu_article_id = Kategorie / Artikel
 wortpresse_menu_parent_id = unterhalb von...
+
+wortpresse_donate = Weiterentwicklung unterstützen 
+wortpresse_info_donate = Anders als die meisten Addons aus der REDAXO-Community ist die Entstehung und Weiterentwicklung dieses Addons nicht durch eigene Projekte gedeckt. Mit einer Spende oder einer Beauftragung sicherst du zusätzliche Features, die Stabilität, Funktionsumfang und Weiterentwicklung weiter verbessern können, sowie eine bessere Anleitung.
