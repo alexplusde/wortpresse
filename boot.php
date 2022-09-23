@@ -1,14 +1,18 @@
 <?php
-# Die boot.php wird bei jedem Seitenaufruf im Frontend und Backend aufgeführt, je nach Reihenfolge von Abhängigkeiten in der package.yml vor oder nach anderen Addons.
-
-# Beispiel YOrm Model-Klasse registrieren, wenn das Addon mit einer eigenen YForm Tabelle kommt.
-/*
 if (rex_addon::get('yform')->isAvailable() && !rex::isSafeMode()) {
-rex_yform_manager_dataset::setModelClass(
-    'rex_wortpresse',
-    wortpresse::class
-);
-*/
+    rex_yform_manager_dataset::setModelClass(
+        'rex_wortpresse_category',
+        wp_category::class
+    );
+    rex_yform_manager_dataset::setModelClass(
+        'rex_wortpresse_tag',
+        wp_tag::class
+    );
+    rex_yform_manager_dataset::setModelClass(
+        'rex_wortpresse_menu',
+        wp_menu::class
+    );
+}
 
 # Prüfen, ob ein anderes Addon installiert ist, bspw. Cronjob-Addon
 /*

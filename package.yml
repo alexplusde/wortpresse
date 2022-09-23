@@ -1,5 +1,5 @@
 package: wortpresse
-version: '0.1-dev'
+version: '0.2-dev'
 author: 'Alexander Walther'
 supportpage: https://github.com/alexplusde/wortpresse
 
@@ -10,8 +10,6 @@ requires:
     redaxo: ^5.13
     packages:
         yform: "^4"
-
-
 
 page:
     title: translate:wortpresse_title
@@ -42,4 +40,4 @@ pages:
         perm: wortpresse[docs]
 
 default_config:
-    field: 'Test'
+    editor: 'class="form-control cke5-editor" data-lang="de" data-profile="default"'
