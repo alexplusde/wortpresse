@@ -15,34 +15,31 @@ requires:
 
 page:
     title: translate:wortpresse_title
-    prio: 100
-    icon: rex-icon fa-gear
+    prio: 11
+    icon: rex-icon rex-icon-table
+    block: system
 
 pages:
-    wortpresse:
-        title: translate:wortpresse_title
-
-        block: system
-        prio: 15
-        icon: rex-icon fa-calendar
-        perm: wortpresse[]
-        subpages:
-            table:
-                title: translate:wortpresse_settings
-                icon: rex-icon fa-gear
-                itemclass: pull-right
-                perm: admin
-            settings:
-                title: translate:wortpresse_settings
-                icon: rex-icon fa-gear
-                itemclass: pull-right
-                perm: admin
-            docs:
-                title: translate:wortpresse_docs
-                subPath: README.md
-                icon: rex-icon fa-info-circle
-                itemclass: pull-right
-                perm: wortpresse[docs]
+    category:
+        title: translate:wortpresse_category
+        perm: wortpresse[category]
+    taxonomy:
+        title: translate:wortpresse_taxonomy
+        perm: wortpresse[taxonomy]
+    menu:
+        title: translate:wortpresse_menu
+        perm: wortpresse[menu]
+    settings:
+        title: translate:wortpresse_settings
+        icon: rex-icon fa-gear
+        itemclass: pull-right
+        perm: admin
+    docs:
+        title: translate:wortpresse_docs
+        subPath: README.md
+        icon: rex-icon fa-info-circle
+        itemclass: pull-right
+        perm: wortpresse[docs]
 
 default_config:
     field: 'Test'

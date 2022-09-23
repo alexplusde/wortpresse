@@ -1,6 +1,9 @@
-wortpresse_title: wortpresse-Addon
-
-# FriendsOfREDAXO-Addons können bei YTraduco zur Übersetzung eingereicht werden
+wortpresse_title = Wortpresse
+wortpresse_category = 📂 Kategorien
+wortpresse_taxonomy = 🏷️ Tags
+wortpresse_menu = 🗂️ Menüs
+wortpresse_settings = Einstellungen
+wortpresse_docs = Hilfe
 
 # Konfigurationsformulare
 wortpresse_config = Einstellungen
@@ -8,5 +11,5 @@ wortpresse_config_mytextfield_label = Test-Feld
 wortpresse_config_mytextfield_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
 
 # YForm Tablelen-Übersetzung
-wortpresse_table_name_label = Name
-wortpresse_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
+wortpresse_category_tablename = Kategorien
+wortpresse_taxonomy_tablename = Tags
